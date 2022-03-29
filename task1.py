@@ -19,5 +19,7 @@ for x in range(len(dp)):
             num=0
         else:
             num=0
-
-print(max(ans))
+if ans!="":
+    print(max(ans))
+else:
+    print("no prime found")
